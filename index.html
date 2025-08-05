@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniapp - GlobalMerch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="profilePic" src="default-profile.jpg" alt="Profile Picture" onclick="openSettingsMenu()">
+        <div id="settingsMenu" class="hidden">
+            <ul>
+                <li><a href="profile.html">Impostazioni</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1>Benvenuto nella Miniapp</h1>
+        <div id="products">
+            <!-- I prodotti verranno caricati dinamicamente qui -->
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
